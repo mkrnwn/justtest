@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro-Futurism Portfolio // v3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar">
+        <div class="browser-bar">
+          <div class="browser-controls">
+            <div class="control red"></div>
+            <div class="control yellow"></div>
+            <div class="control green"></div>
+          </div>
+          <div class="address-bar">
+            <span id="typing-text"></span>
+          </div>
+          <div class="window-controls">
+            <button class="window-btn">_</button>
+            <button class="window-btn">□</button>
+            <button class="window-btn">×</button>
+          </div>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li class="active">
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <i class="fas fa-folder"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="content-wrapper">
+        <section id="home" class="view active">
+          <div class="window glass-pane large-window">
+            <div class="card-header">
+              <div class="browser-controls">
+                <div class="control red"></div>
+                <div class="control yellow"></div>
+                <div class="control green"></div>
+              </div>
+              <div class="card-title">Welcome</div>
+              <div class="window-controls">
+                <button class="window-btn">×</button>
+              </div>
+            </div>
+            <div class="window-content text-center">
+              <h1>Portfolio Website</h1>
+              <p>Retro-Futurism & Glassmorphism</p>
+              <i
+                class="fas fa-meteor"
+                style="font-size: 6rem; margin-top: 40px; color: #ff00ff"
+              ></i>
+              <p style="margin-top: 20px">
+                Selamat datang. Silakan navigasi menggunakan menu di atas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="view">
+          <div class="view-layout-split">
+            <div class="profile-card">
+              <div class="card-inner">
+                <div class="card-front glass-pane accent-teal">
+                  <div class="card-header">
+                    <div class="browser-controls">
+                      <div class="control red"></div>
+                      <div class="control yellow"></div>
+                      <div class="control green"></div>
+                    </div>
+                    <div class="card-title">Profile</div>
+                    <div class="window-controls">
+                      <button class="window-btn">×</button>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <img
+                      class="profile-image"
+                      src="https://avatars.githubusercontent.com/u/101313967?v=4"
+                      alt="Profile Picture"
+                    />
+                    <h3>Muhamad Kurniawan</h3>
+                    <p>Berkuliah di Sari Mulia University</p>
+                    <p>wkwkwkwkwkwkwwkw</p>
+                    <div class="flip-hint">(Click to flip)</div>
+                  </div>
+                </div>
+                <div class="card-back glass-pane accent-teal">
+                  <div class="card-header">
+                    <div class="browser-controls">
+                      <div class="control red"></div>
+                      <div class="control yellow"></div>
+                      <div class="control green"></div>
+                    </div>
+                    <div class="card-title">Skills</div>
+                    <div class="window-controls">
+                      <button class="window-btn">×</button>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h3>Tech Stacks</h3>
+                    <ul class="skill-list">
+                      <li><div class="bullet"></div>Tailwind CSS</li>
+                      <li><div class="bullet"></div>Livewire</li>
+                      <li><div class="bullet"></div>Laravel</li>
+                      <li><div class="bullet"></div>Alpine.js</li>
+                      <li><div class="bullet"></div>MySql</li>
+                    </ul>
+                    <div class="flip-hint">(Click to flip back)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="glass-pane about-content">
+              <h2 class="section-header yellow-accent">Tentang Saya</h2>
+              <p>
+                Selamat datang di situs web saya! 🚀 Saya seorang pengembang
+                yang suka membuat pengalaman web unik yang menggabungkan
+                nostalgia retro-tech dengan fungsionalitas modern dan desain
+                yang elegan.
+              </p>
+              <p>
+                Keahlian utama saya terletak pada tumpukan TALL (Tailwind,
+                Alpine.js, Laravel, Livewire), yang memungkinkan saya membuat
+                aplikasi web yang dinamis dan reaktif dengan cepat.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="view">
+          <div class="glass-pane project-window">
+            <h2 class="section-header teal-accent">Projek-Projek</h2>
+            <div class="projects-grid">
+              <div class="project-card glass-pane">
+                <img
+                  src="./projects/pmb_idn.png"
+                  alt="PMB IDN"
+                  class="project-image"
+                />
+                <h3>reff</h3>
+                <p>
+                  hanya sebagai contoh
+                </p>
+              </div>
+              <div class="project-card glass-pane">
+                <img
+                  class="project-image"
+                  src="./projects/e-employee.PNG"
+                  alt="E-Employee IDN"
+                />
+                <h3>reffff</h3>
+                <p>
+                  hanya sebagai contoh
+                </p>
+              </div>
+              <div class="project-card glass-pane">
+                <img
+                  src="./projects/pmb_idn.png"
+                  alt="PMB IDN"
+                  class="project-image"
+                />
+                <h3>Project Duplikat 1</h3>
+                <p>Deskripsi singkat proyek duplikat untuk contoh.</p>
+              </div>
+              <div class="project-card glass-pane">
+                <img
+                  class="project-image"
+                  src="./projects/e-employee.PNG"
+                  alt="E-Employee IDN"
+                />
+                <h3>Project Duplikat 2</h3>
+                <p>Deskripsi singkat proyek duplikat untuk contoh.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="view">
+          <div class="view-layout-split">
+            <div class="glass-pane contact-content">
+              <h2 class="section-header pink-accent">Kontak Saya</h2>
+              <p>Jangan ragu untuk menghubungi saya melalui platform berikut:</p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="contact-bullet teal-bg"></div>
+                  <span>mkrnwnn@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-bullet yellow-bg"></div>
+                  <span>hanya coba coba saja</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-card">
+              <div class="card-inner">
+                <div class="card-front glass-pane accent-yellow">
+                  <div class="card-header">
+                    <div class="browser-controls">
+                      <div class="control red"></div>
+                      <div class="control yellow"></div>
+                      <div class="control green"></div>
+                    </div>
+                    <div class="card-title">Sosmed</div>
+                    <div class="window-controls">
+                      <button class="window-btn">×</button>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <img
+                      class="profile-image"
+                      src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                      alt="Github Logo"
+                    />
+                    <h3>Sosial Media</h3>
+                    <p>Get in touch</p>
+                    <div class="flip-hint">(Click to flip)</div>
+                  </div>
+                </div>
+                <div class="card-back glass-pane accent-yellow">
+                  <div class="card-header">
+                    <div class="browser-controls">
+                      <div class="control red"></div>
+                      <div class="control yellow"></div>
+                      <div class="control green"></div>
+                    </div>
+                    <div class="card-title">Links</div>
+                    <div class="window-controls">
+                      <button class="window-btn">×</button>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h3>Links</h3>
+                    <ul class="skill-list">
+                      <li><div class="bullet"></div>GitHub</li>
+                      <li><div class="bullet"></div>LinkedIn</li>
+                      <li><div class="bullet"></div>Twitter</li>
+                      <li><div class="bullet"></div>Email</li>
+                    </ul>
+                    <div class="flip-hint">(Click to flip back)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="glass-pane pagination-footer">
+        <div class="pagination-dots">
+          <div class="dot active" data-view="home"></div>
+          <div class="dot" data-view="about"></div>
+          <div class="dot" data-view="projects"></div>
+          <div class="dot" data-view="contact"></div>
+        </div>
+      </footer>
+    </div>
+    <!-- Script (terpisah) -->
+  <script src="script.js"></script>
+  </body>
+</html>
